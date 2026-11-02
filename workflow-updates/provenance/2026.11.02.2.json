@@ -1,0 +1,714 @@
+{
+  "license_note": "No new license is asserted for third-party originals or models.",
+  "schema": 1,
+  "scope": "Curated workflow JSON already included in Comfy launcher; local exported video previews removed and example guide paths made portable; original references retained.",
+  "version": "2026.11.02.2",
+  "workflows": [
+    {
+      "path": "ERNIE Image/Texto a imagen · estándar.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/image_ernie_image.json",
+        "https://docs.comfy.org/tutorials/image/ernie-image/ernie-image"
+      ],
+      "sha256": "fedad3700504da2d6a1e6163ab2ce75d7c7055bc7acd5aca8379b582b9fe5517",
+      "source_path": "workflows/Ernie/Ernie__t2i.json",
+      "source_sha256": "8d0a6b9ff95029fb1468759e6262b7f21d262747db87348c217dfaf2d58da7df",
+      "workflow_id": "Ernie.t2i"
+    },
+    {
+      "path": "ERNIE Image/Texto a imagen · estándar · prompt asistido.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/image_ernie_image.json",
+        "https://docs.comfy.org/tutorials/image/ernie-image/ernie-image"
+      ],
+      "sha256": "5e58477e4a0fa899a46dda60162f1c01f58894272fee8b531e8aba92544654d1",
+      "source_path": "workflows/Ernie/Ernie__t2i-enhanced.json",
+      "source_sha256": "ffbcb4e52f740f74e2323d65bed04dd454bae8225319941794f84d0cd527e66b",
+      "workflow_id": "Ernie.t2i-enhanced"
+    },
+    {
+      "path": "ERNIE Image/Texto a imagen · Turbo.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/image_ernie_image_turbo.json",
+        "https://docs.comfy.org/tutorials/image/ernie-image/ernie-image"
+      ],
+      "sha256": "87e32e4ad4bca7a6ff093d30fe5d23bea6b299ec56b6df69515daaaefef3bbfe",
+      "source_path": "workflows/Ernie/Ernie__t2i-turbo.json",
+      "source_sha256": "660b57571332eed4fdc0b5dac2ae6bf3a376b3d5030b93db59314eee93fe6f8a",
+      "workflow_id": "Ernie.t2i-turbo"
+    },
+    {
+      "path": "ERNIE Image/Texto a imagen · Turbo · prompt asistido.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/image_ernie_image_turbo.json",
+        "https://docs.comfy.org/tutorials/image/ernie-image/ernie-image"
+      ],
+      "sha256": "91bd4e6b7e2ac06c895f34deee89169c9d657f1bcea78ce782f5faee2cb1a902",
+      "source_path": "workflows/Ernie/Ernie__t2i-turbo-enhanced.json",
+      "source_sha256": "18f3c5ef302d6566414d835105afc68b0800bbe45fb44ec0a5e139009956ba19",
+      "workflow_id": "Ernie.t2i-turbo-enhanced"
+    },
+    {
+      "path": "FLUX.1 dev/Texto a imagen · FLUX.1 dev.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/flux_dev_full_text_to_image.json",
+        "https://docs.comfy.org/tutorials/flux/flux-1-text-to-image"
+      ],
+      "sha256": "5b5e95aa3a0833bb45862e12a586bb490827d381873ccc9ce3a6dbe4a650e9ef",
+      "source_path": "workflows/Flux/Flux__t2i.json",
+      "source_sha256": "0e7e8f17c4969c8c65605795f8645d36bacac0d9d5dcb70659c0f288b120c89d",
+      "workflow_id": "Flux.t2i"
+    },
+    {
+      "path": "FLUX.1 dev/Texto a imagen · checkpoint FP8.json",
+      "reference_urls": [
+        "https://github.com/comfyanonymous/ComfyUI_examples/blob/f9431bb000ce792094ff345446e22cac1ea6cef3/flux/flux_dev_checkpoint_example.png",
+        "https://docs.comfy.org/tutorials/flux/flux-1-text-to-image"
+      ],
+      "sha256": "e5a5c14f2a6dd698e1a2e765075e5eb9d8ef2a8f67ce7cc9fe9aba3eba05d166",
+      "source_path": "workflows/Flux/Flux__t2i-packed-fp8.json",
+      "source_sha256": "6b6109076d72caa0cebbbcf1131a1cfb4d9f050f7d49f7e1b39960e9d974c622",
+      "workflow_id": "Flux.t2i-packed-fp8"
+    },
+    {
+      "path": "FLUX.1 dev/Variación de imagen · Redux.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/flux_redux_model_example.json",
+        "https://docs.comfy.org/tutorials/flux/flux-1-text-to-image"
+      ],
+      "sha256": "57cf864d6e7dfd468cc230ef0c28bb39b8c3639c970b0e039d7a4647932133fc",
+      "source_path": "workflows/Flux/Flux__redux.json",
+      "source_sha256": "0962722f5ba16795e1c08468d4f16b94160c510353075a34eb91a699ea4edca7",
+      "workflow_id": "Flux.redux"
+    },
+    {
+      "path": "FLUX.1 dev/Imagen guiada por contornos.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/flux_canny_model_example.json",
+        "https://docs.comfy.org/tutorials/flux/flux-1-controlnet",
+        "https://docs.comfy.org/tutorials/flux/flux-1-text-to-image"
+      ],
+      "sha256": "290bf4d08d9a798b32f2bcef76907a4a508ce077f4db01dbd68d6e43c92443c2",
+      "source_path": "workflows/Flux/Flux__canny.json",
+      "source_sha256": "559789318150f2987b5122fd1052be3727c5fc05b42f756ddc0f13b9af49810b",
+      "workflow_id": "Flux.canny"
+    },
+    {
+      "path": "FLUX.1 dev/Edición con máscara · Fill.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/flux_fill_inpaint_example.json",
+        "https://docs.comfy.org/tutorials/flux/flux-1-fill-dev",
+        "https://docs.comfy.org/tutorials/flux/flux-1-text-to-image"
+      ],
+      "sha256": "b297e29b3b909a96f4d5ac0e4c4d3851c0c169e4b3b767bd1e1757d2c5e9f159",
+      "source_path": "workflows/Flux/Flux__inpaint.json",
+      "source_sha256": "00690841722a037634a19d8fb5fc4b7ffdbac06dd67d50eca488b323f76af303",
+      "workflow_id": "Flux.inpaint"
+    },
+    {
+      "path": "FLUX.1 dev/Ampliación de imagen · Fill.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/flux_fill_outpaint_example.json",
+        "https://docs.comfy.org/tutorials/flux/flux-1-fill-dev",
+        "https://docs.comfy.org/tutorials/flux/flux-1-text-to-image"
+      ],
+      "sha256": "2937a306e6c4f235f225f20235e9016b21a5fb8e2e19b40d5afe18031d70fe2d",
+      "source_path": "workflows/Flux/Flux__outpaint.json",
+      "source_sha256": "beb53132f0a15c04305d95cd87f4fc898a7bae7f2427c4abe337a57f37485e47",
+      "workflow_id": "Flux.outpaint"
+    },
+    {
+      "path": "FLUX.1 dev/Imagen guiada por profundidad.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/flux_depth_lora_example.json",
+        "https://docs.comfy.org/tutorials/flux/flux-1-controlnet",
+        "https://docs.comfy.org/tutorials/flux/flux-1-text-to-image"
+      ],
+      "sha256": "d73661a0fd4cb16cca0fec08b8099f2fb56b3c4fbb40f5ca460ea0deede891ba",
+      "source_path": "workflows/Flux/Flux__depth.json",
+      "source_sha256": "5f3705d88189fed20b1d526560a688bbeaf619c140d5405248e0798f1fc13a09",
+      "workflow_id": "Flux.depth"
+    },
+    {
+      "path": "FLUX.1 dev/Referencia de sujeto · USO · hasta 2 estilos opcionales.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/flux1_dev_uso_reference_image_gen.json",
+        "https://docs.comfy.org/tutorials/flux/flux-1-uso",
+        "https://docs.comfy.org/tutorials/flux/flux-1-text-to-image"
+      ],
+      "sha256": "3473dda53ccb08c8080f514d885b92c3c3e237bc08c07b5851a7c7029679d364",
+      "source_path": "workflows/Flux/Flux__uso-1.json",
+      "source_sha256": "a1e9095409ce613a13c4fd2f0d5cba70a0abadf2890ec46afb0d7e1f17340cc9",
+      "workflow_id": "Flux.uso-1"
+    },
+    {
+      "path": "FLUX.1 dev/Referencias de estilo · USO · 2 imágenes.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/flux1_dev_uso_reference_image_gen.json",
+        "https://docs.comfy.org/tutorials/flux/flux-1-uso",
+        "https://docs.comfy.org/tutorials/flux/flux-1-text-to-image"
+      ],
+      "sha256": "714a1e9eb30ab4192fe2bb9fec6cf54696b4efb984fa787950a73586671e950f",
+      "source_path": "workflows/Flux/Flux__uso-2.json",
+      "source_sha256": "516c40279b61603d9334cfac3585d04e4b2b39e4c98ea62bf4d73764877b8ba7",
+      "workflow_id": "Flux.uso-2"
+    },
+    {
+      "path": "FLUX.1 Krea dev/Texto a imagen · Krea.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/flux1_krea_dev.json",
+        "https://docs.comfy.org/tutorials/flux/flux1-krea-dev"
+      ],
+      "sha256": "cea341df36db9dbc927397c33bf98bae2eaff9a7949db54175b326221ec5b5a4",
+      "source_path": "workflows/FluxKrea/FluxKrea__t2i.json",
+      "source_sha256": "26fda25ac02077b695bbbcdc7ab038e9ccbe7bcbc569332d84939ffe2de6ba80",
+      "workflow_id": "FluxKrea.t2i"
+    },
+    {
+      "path": "FLUX.2 Klein/Texto a imagen.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/image_flux2_klein_text_to_image.json",
+        "https://docs.comfy.org/tutorials/flux/flux-2-klein"
+      ],
+      "sha256": "7a20926615cf4224124e7cf299332417dd32c688638e47b9daa8c660fd664aa9",
+      "source_path": "workflows/FluxKlein/FluxKlein__t2i.json",
+      "source_sha256": "7c5a4ca643906fd2173e543fd061c9769274141a558dbd69693f9bf7225f9d73",
+      "workflow_id": "FluxKlein.t2i"
+    },
+    {
+      "path": "FLUX.2 Klein/Edición con hasta 4 referencias.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/image_flux2_klein_image_edit_4b_distilled.json",
+        "https://docs.comfy.org/tutorials/flux/flux-2-klein"
+      ],
+      "sha256": "c9b57c1ea5070505b811e47f62796dcaaa7edfd1f17df16145578eac56e957d5",
+      "source_path": "workflows/FluxKlein/FluxKlein__edit-4-ref-toggle.json",
+      "source_sha256": "5c60a872dcaeef722c01092ea7d810b447ed0edb929f0a5433b7e954c3599168",
+      "workflow_id": "FluxKlein.edit-4-ref-toggle"
+    },
+    {
+      "path": "FLUX.3 Klein/Texto a imagen · Distilled.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/59a3b48bf369c5a15f29a1308bae3e279fa15505/templates/image_flux3_klein_distilled_t2i.json",
+        "https://docs.comfy.org/tutorials/flux/flux-3-klein"
+      ],
+      "sha256": "593536781f2b4060dd31e7911d614f6a0638f128a8796d9d66d66b01d66de3bd",
+      "source_path": "workflows/Flux3Klein/Flux3Klein__t2i.json",
+      "source_sha256": "a32c13476d10fe7d9c09478428a7c710e424cf703079659241c70dfb450403ca",
+      "workflow_id": "Flux3Klein.t2i"
+    },
+    {
+      "path": "FLUX.3 Klein/Editar 1–10 referencias · Distilled.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/59a3b48bf369c5a15f29a1308bae3e279fa15505/templates/image_flux3_klein_distilled_image_edit.json",
+        "https://docs.comfy.org/tutorials/flux/flux-3-klein"
+      ],
+      "sha256": "e5f753ea8b200587fe9fe5efa18ce64831d1663fee252a4804979f626ad96012",
+      "source_path": "workflows/Flux3Klein/Flux3Klein__edit-10-ref.json",
+      "source_sha256": "4df5fd90de04a9a206277a2d47f574aa47806c09c480afc43549adce80a52fcb",
+      "workflow_id": "Flux3Klein.edit-10-ref"
+    },
+    {
+      "path": "FLUX.3 Klein/Texto a imagen · Base.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/59a3b48bf369c5a15f29a1308bae3e279fa15505/templates/image_flux3_klein_t2i.json",
+        "https://docs.comfy.org/tutorials/flux/flux-3-klein"
+      ],
+      "sha256": "9c2ef0c738b396980ecbb83ab190f2ca436b0ec4960e367f305040b293f78c45",
+      "source_path": "workflows/Flux3Klein/Flux3Klein__base-t2i.json",
+      "source_sha256": "28d25289c92d1a23c7799f483b37bb2ada89843a0d9557c1d009bcd0750bab75",
+      "workflow_id": "Flux3Klein.base-t2i"
+    },
+    {
+      "path": "FLUX.3 Klein/Editar 1–10 referencias · Base.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/59a3b48bf369c5a15f29a1308bae3e279fa15505/templates/image_flux3_klein_image_edit.json",
+        "https://docs.comfy.org/tutorials/flux/flux-3-klein"
+      ],
+      "sha256": "a93084caa3b7fec910e98913bffd2e5f38b04b43580ba11f3a811fca96d023b0",
+      "source_path": "workflows/Flux3Klein/Flux3Klein__base-edit-10-ref.json",
+      "source_sha256": "610f1d4d2971186735b7e380c6d5d39d8b8510832c046284401cd1452d3fffd7",
+      "workflow_id": "Flux3Klein.base-edit-10-ref"
+    },
+    {
+      "path": "FLUX.3 Klein/Composición con cajas · Distilled.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/59a3b48bf369c5a15f29a1308bae3e279fa15505/templates/image_flux3_klein_distilled_t2i.json",
+        "https://docs.comfy.org/tutorials/flux/flux-3-klein"
+      ],
+      "sha256": "cfcc13eebe1f1d8ee51cd14b956a56996534fb5b16fb329f290526e4d920335e",
+      "source_path": "workflows/Flux3Klein/Flux3Klein__layout.json",
+      "source_sha256": "8a6e230a369ee2dc76d83183715211fb8a08e021d00d20e04661edcfe5cfb0f5",
+      "workflow_id": "Flux3Klein.layout"
+    },
+    {
+      "path": "LTX 2.3/Texto a vídeo con audio.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/video_ltx2_3_t2v.json",
+        "https://docs.ltx.io/open-source-model/integration-tools/comfy-ui"
+      ],
+      "sha256": "2704d49c7b7f13824db35a0372aae819904ce536038822a23114328c2799f532",
+      "source_path": "workflows/LTX23/LTX23_text_video_ARQUINOVATOS.json",
+      "source_sha256": "264b96aba04fc1f72cea9cc341977d7cb62e92c3bc1803f0f7bcc3c29268fb63",
+      "workflow_id": "LTX23.ltx23-text-video"
+    },
+    {
+      "path": "LTX 2.3/Imagen a vídeo con audio.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/video_ltx2_3_i2v.json",
+        "https://docs.ltx.io/open-source-model/integration-tools/comfy-ui"
+      ],
+      "sha256": "72ec9039bf9a6f9ecbe5383031a0e1d3f8f7befec4ad171da275ad0a28e99982",
+      "source_path": "workflows/LTX23/LTX23_image_video_ARQUINOVATOS.json",
+      "source_sha256": "3c575122f97da47702fa193471838854f2a143f7c9a76c5e1ca76fc20773a9a2",
+      "workflow_id": "LTX23.ltx23-image-video"
+    },
+    {
+      "path": "LTX 2.3/Imagen y audio a vídeo.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/video_ltx2_3_ia2v.json",
+        "https://docs.ltx.io/open-source-model/integration-tools/comfy-ui"
+      ],
+      "sha256": "ef7677da798d9aa9950d6125ee1918c04c58b999ffe6f60db85587fd5997bdc1",
+      "source_path": "workflows/LTX23/LTX23_image_audio_video_ARQUINOVATOS.json",
+      "source_sha256": "1252e712c2284af9f2d7a633c987ce69a24257e2ac1a940dd98d3b3b560b11ca",
+      "workflow_id": "LTX23.ltx23-image-audio-video"
+    },
+    {
+      "path": "LTX 2.3/Primer y último fotograma a vídeo.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/video_ltx2_3_flf2v.json",
+        "https://docs.ltx.io/open-source-model/integration-tools/comfy-ui"
+      ],
+      "sha256": "bc1443b97c1790e06c88def4c04ad606fc651ed150f5a886f6ce6f97b530af6a",
+      "source_path": "workflows/LTX23/LTX23_first_last_ARQUINOVATOS.json",
+      "source_sha256": "3f3c4fe4a6ff7c4947e4949487c0c896a9be031d7982150fa57956eb8dcb58c6",
+      "workflow_id": "LTX23.ltx23-first-last"
+    },
+    {
+      "path": "LTX 2.3/Texto a audio.json",
+      "reference_urls": [
+        "https://github.com/Lightricks/ComfyUI-LTXVideo/blob/3bf3ca62595f1764c47d01c35c8e5dfe47e1a88f/example_workflows/2.3/LTX-2.3_T2A_Single_Stage_Distilled.json",
+        "https://docs.ltx.io/open-source-model/integration-tools/comfy-ui"
+      ],
+      "sha256": "bf888368a9deb4d0ea4817e9eefbc12c19dc49856ee3b04fb577c47e17d6942b",
+      "source_path": "workflows/LTX23/LTX23_text_audio_ARQUINOVATOS.json",
+      "source_sha256": "ca56670324acc10f597d8a0fe56a659251eaf386b357303c3b1ee56e8fa4e13d",
+      "workflow_id": "LTX23.ltx23-text-audio"
+    },
+    {
+      "path": "LTX 2.3/Vídeo guiado por estructura.json",
+      "reference_urls": [
+        "https://github.com/Lightricks/ComfyUI-LTXVideo/blob/3bf3ca62595f1764c47d01c35c8e5dfe47e1a88f/example_workflows/2.3/LTX-2.3_ICLoRA_Union_Control_Distilled.json",
+        "https://docs.ltx.io/open-source-model/integration-tools/comfy-ui"
+      ],
+      "sha256": "529dede6949eee03777c80a6af964fc0945ca19daf618bb5efc1b66bfd9a1a45",
+      "source_path": "workflows/LTX23/LTX23_union_ARQUINOVATOS.json",
+      "source_sha256": "58c7b496ec126111d936abae34d20f5cd5f9d94b214cb0ec8209391a258e6ab5",
+      "workflow_id": "LTX23.ltx23-union"
+    },
+    {
+      "path": "LTX 2.3/Imagen a vídeo con trayectorias.json",
+      "reference_urls": [
+        "https://github.com/Lightricks/ComfyUI-LTXVideo/blob/3bf3ca62595f1764c47d01c35c8e5dfe47e1a88f/example_workflows/2.3/LTX-2.3_ICLoRA_Motion_Track_Distilled.json",
+        "https://docs.ltx.io/open-source-model/integration-tools/comfy-ui"
+      ],
+      "sha256": "9e53d503430010c4225575cbbce3a385e330e522128e982d69f2267c11e599a0",
+      "source_path": "workflows/LTX23/LTX23_motion_ARQUINOVATOS.json",
+      "source_sha256": "ded624b1a7a836de48c1b5b04b0deb27532688b9ff1b09f383a6e6e4a66e4fc2",
+      "workflow_id": "LTX23.ltx23-motion"
+    },
+    {
+      "path": "LTX 2.3/Vídeo SDR a HDR.json",
+      "reference_urls": [
+        "https://github.com/Lightricks/ComfyUI-LTXVideo/blob/3bf3ca62595f1764c47d01c35c8e5dfe47e1a88f/example_workflows/2.3/LTX-2.3_ICLoRA_HDR_Distilled.json",
+        "https://docs.ltx.io/open-source-model/integration-tools/comfy-ui"
+      ],
+      "sha256": "ca37d71d7e2e64809699a8760822315908156d50dfa372407c1d8b1a34beee67",
+      "source_path": "workflows/LTX23/LTX23_hdr_ARQUINOVATOS.json",
+      "source_sha256": "c0160cc6e23e5e2e13bd059538117efee09db4ce36283b99b851be461f541ad0",
+      "workflow_id": "LTX23.ltx23-hdr"
+    },
+    {
+      "path": "LTX 2.3/Referencia visual a vídeo.json",
+      "reference_urls": [
+        "https://github.com/Lightricks/ComfyUI-LTXVideo/blob/3bf3ca62595f1764c47d01c35c8e5dfe47e1a88f/example_workflows/2.3/LTX-2.3_ICLoRA_Ingredients_Single_Stage_Distilled.json",
+        "https://docs.ltx.io/open-source-model/integration-tools/comfy-ui"
+      ],
+      "sha256": "ea1a3b3edb03fe6ec1f5485f9430bc8a77a0dff685bce3f17f81452bbcb4f72e",
+      "source_path": "workflows/LTX23/LTX23_ingredients_ARQUINOVATOS.json",
+      "source_sha256": "0e7d25703a3bc2fea85f6fb7b2bd1958eab5f8abc85adabb556dc698db021c31",
+      "workflow_id": "LTX23.ltx23-ingredients"
+    },
+    {
+      "path": "LTX 2.3/Edición de vídeo.json",
+      "reference_urls": [
+        "https://github.com/Lightricks/ComfyUI-LTXVideo/blob/3bf3ca62595f1764c47d01c35c8e5dfe47e1a88f/example_workflows/2.3/LTX-2.3_V2V_ICLoRA_Single_Stage_Distilled.json",
+        "https://docs.ltx.io/open-source-model/integration-tools/comfy-ui"
+      ],
+      "sha256": "6b925060be27680970d5fc80623c1d91b3f3f6aed55319afe405044f142f0460",
+      "source_path": "workflows/LTX23/LTX23_video_edit_ARQUINOVATOS.json",
+      "source_sha256": "8af9cf0f2d005f34c15cb0f291b24e148495caf5a70861e55db0c7e230201cba",
+      "workflow_id": "LTX23.ltx23-video-edit"
+    },
+    {
+      "path": "LTX 2.3/Regenerar una zona del vídeo.json",
+      "reference_urls": [
+        "https://github.com/Lightricks/ComfyUI-LTXVideo/blob/3bf3ca62595f1764c47d01c35c8e5dfe47e1a88f/example_workflows/2.3/LTX-2.3_ICLoRA_Inpaint_Two_Stage_Distilled.json",
+        "https://docs.ltx.io/open-source-model/integration-tools/comfy-ui"
+      ],
+      "sha256": "49bbc11ac4e247fba79667f89591a017832f6a967226d369bfdd43ec29b3e239",
+      "source_path": "workflows/LTX23/LTX23_inpaint_ARQUINOVATOS.json",
+      "source_sha256": "cd3bb9ef3f2c36966e899d50bad9ab51bd3d546bd4d2f792f7926690b05a95b5",
+      "workflow_id": "LTX23.ltx23-inpaint"
+    },
+    {
+      "path": "LTX 2.3/Ampliar el encuadre del vídeo.json",
+      "reference_urls": [
+        "https://github.com/Lightricks/ComfyUI-LTXVideo/blob/3bf3ca62595f1764c47d01c35c8e5dfe47e1a88f/example_workflows/2.3/LTX-2.3_ICLoRA_Outpaint_Two_Stage_Distilled.json",
+        "https://docs.ltx.io/open-source-model/integration-tools/comfy-ui"
+      ],
+      "sha256": "350ebb437382d40cd6466e429602f1ec72ed0c04f1b1a191730bcf5b6bb382f4",
+      "source_path": "workflows/LTX23/LTX23_outpaint_ARQUINOVATOS.json",
+      "source_sha256": "50f6b0c460d24fecd45eacb92cfe9db1a44298cd1e096c704147e99ba202a56b",
+      "workflow_id": "LTX23.ltx23-outpaint"
+    },
+    {
+      "path": "LTX 2.3/Aumentar resolución de vídeo.json",
+      "reference_urls": [
+        "https://github.com/Lightricks/ComfyUI-LTXVideo/blob/3bf3ca62595f1764c47d01c35c8e5dfe47e1a88f/example_workflows/2.3/LTX-2.3_ICLoRA_Pixel_Spatial_Upscaler_Distilled.json",
+        "https://docs.ltx.io/open-source-model/integration-tools/comfy-ui"
+      ],
+      "sha256": "ad34bbb6662aaa91e96ca56af5dc36e78d1f15269c77bc730b731be3d24b5a2c",
+      "source_path": "workflows/LTX23/LTX23_pixel_upscale_ARQUINOVATOS.json",
+      "source_sha256": "31b1abfcde047fb1864e0bb1bdb62bfaaaf039357a332f00cba19b0d5ffbef77",
+      "workflow_id": "LTX23.ltx23-pixel-upscale"
+    },
+    {
+      "path": "LTX 2.3/Cambiar el diálogo de un vídeo.json",
+      "reference_urls": [
+        "https://github.com/Lightricks/ComfyUI-LTXVideo/blob/3bf3ca62595f1764c47d01c35c8e5dfe47e1a88f/example_workflows/2.3/LTX-2.3_ICLoRA_DubIt_Two_Stage_Distilled.json",
+        "https://docs.ltx.io/open-source-model/integration-tools/comfy-ui"
+      ],
+      "sha256": "1ce64f6735fa4474d2cd4980fc4e287af1a32d3cacaad0bc1761e106bafb06dc",
+      "source_path": "workflows/LTX23/LTX23_dubbing_ARQUINOVATOS.json",
+      "source_sha256": "9232f52ba2971c1a68af0f7627c56dd2925a72e7c07128e4a3d76171252c970f",
+      "workflow_id": "LTX23.ltx23-dubbing"
+    },
+    {
+      "path": "LTX 2.3/Vídeo a audio · Efectos Foley.json",
+      "reference_urls": [
+        "https://huggingface.co/Lightricks/LTX-2.3-22b-LoRA-Foley-V2A/blob/50d9eabbc389314c9f5fb553ff22db6871565a72/ltx-2.3-foley-v2a.json",
+        "https://docs.ltx.io/open-source-model/feature-guides/audio/video-to-audio-foley"
+      ],
+      "sha256": "beeec46e33e5e1eb5c34167009a4b9cc26391be61888ec5b8a8a6ca39b5d000d",
+      "source_path": "workflows/LTX23/LTX23_foley_v2a_ARQUINOVATOS.json",
+      "source_sha256": "85c778ce3cdc00b12b54c38f256f831283ef8eaf56b585233a66ef906febf71a",
+      "workflow_id": "LTX23.ltx23-foley-v2a"
+    },
+    {
+      "path": "LTX 2.3/Control de movimiento con identidad.json",
+      "reference_urls": [],
+      "sha256": "c0eb046f0bc531375bda32c424df120ec06dcb3c94da540c4199fcb326b412cc",
+      "source_path": "workflows/LTX23/LTX23_motion_control_DWPose_ARQUINOVATOS.json",
+      "source_sha256": "50c33dc3ddb75661fc623435bbb23c75c7212356464e2c7e294daa7cf4655902",
+      "workflow_id": "LTX23.motion-control"
+    },
+    {
+      "path": "MiniMax H3/Texto a vídeo con audio.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/video_minimax_h3_t2v.json",
+        "https://docs.comfy.org/tutorials/video/minimax/minimax-h3-native"
+      ],
+      "sha256": "a20e892e052029a81dcc6085120ed031408afc092f9ed5f55bd7ffd903d65b73",
+      "source_path": "workflows/MiniMax/MiniMax_H3_t2v_BASE_QUALITY_EN_ES.json",
+      "source_sha256": "a705852a0306c018d10cf7f59c289e5fdf1a98a8da51c10b977855e32c3ab1f3",
+      "workflow_id": "MiniMax.minimax-t2v-base"
+    },
+    {
+      "path": "MiniMax H3/Imagen a vídeo con audio.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/video_minimax_h3_i2v.json",
+        "https://docs.comfy.org/tutorials/video/minimax/minimax-h3-native"
+      ],
+      "sha256": "2fe07686c9fb6e318bac70d40d845ad41d32e59a02646256f8af9d1344c55932",
+      "source_path": "workflows/MiniMax/MiniMax_H3_i2v_BASE_QUALITY_EN_ES.json",
+      "source_sha256": "c100c31314aa14d19a45bbe66f500931f4974841aa91acc5866227547df5a912",
+      "workflow_id": "MiniMax.minimax-i2v-base"
+    },
+    {
+      "path": "MiniMax H3/Continuación desde el último fotograma.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/video_minimax_h3_i2v_continuation.json",
+        "https://docs.comfy.org/tutorials/video/minimax/minimax-h3-native"
+      ],
+      "sha256": "5485ad5769b1bc9cd36886640776c6a13401749e66207f22dde217520bf8f8f5",
+      "source_path": "workflows/MiniMax/MiniMax_H3_i2v_continuation_BASE_QUALITY_EN_ES.json",
+      "source_sha256": "d50f93f870b99b7c1f3aada11bfb6f4bad627c3909cc6a9a8e64b4a4dba2e85c",
+      "workflow_id": "MiniMax.minimax-i2v_continuation-base"
+    },
+    {
+      "path": "MiniMax H3/Referencias a vídeo con audio.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/video_minimax_h3_r2v.json",
+        "https://docs.comfy.org/tutorials/video/minimax/minimax-h3-native"
+      ],
+      "sha256": "482d6f9dfbf95bb58fdc34c234b88dc0c06b74a931f4025e51556853bdd1d97f",
+      "source_path": "workflows/MiniMax/MiniMax_H3_r2v_BASE_QUALITY_EN_ES.json",
+      "source_sha256": "3964cac9d30831542fd869d6b73727d8f79d1c44b0b1f8c281415aadb76203d9",
+      "workflow_id": "MiniMax.minimax-r2v-base"
+    },
+    {
+      "path": "MiniMax H3/Fotogramas guía a vídeo.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/video_minimax_h3_multiframe_reference.json",
+        "https://docs.comfy.org/tutorials/video/minimax/minimax-h3-multiframe"
+      ],
+      "sha256": "29ecc89800fa0eecdb916c470e20fda20b962a765deb5fba62cbef52046b097a",
+      "source_path": "workflows/MiniMax/MiniMax_H3_multiframe_reference_BASE_QUALITY_EN_ES.json",
+      "source_sha256": "8f611e7db063998a27e13bad635a122ba65adf875cf980ee13ad8ad20ca32ee5",
+      "workflow_id": "MiniMax.minimax-multiframe_reference-base"
+    },
+    {
+      "path": "MiniMax H3/Vídeo guiado por pose.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/video_minimax_h3_fun_controlnet_union.json",
+        "https://docs.comfy.org/tutorials/video/minimax/minimax-h3-fun-controlnet"
+      ],
+      "sha256": "5205580435cc3166c64cdd3c5f9d9fff1a7ef1880d7b00aae1909cd8983c842c",
+      "source_path": "workflows/MiniMax/MiniMax_H3_fun_controlnet_union_BASE_QUALITY_EN_ES.json",
+      "source_sha256": "4eae3c29f05326b3253d0147ff88a1167468f5029ec98f0403f2ecfd247aa3ad",
+      "workflow_id": "MiniMax.minimax-fun_controlnet_union-base"
+    },
+    {
+      "path": "MiniMax H3/Control de movimiento con identidad.json",
+      "reference_urls": [],
+      "sha256": "dfdd202697e45f46376971853f3d5daa05a6e96134bde0ba284705dcddb14354",
+      "source_path": "workflows/MiniMax/MiniMax_H3_motion_control_SDpose_ARQUINOVATOS.json",
+      "source_sha256": "c704dded2b63d4d9e83c64ec503cfba106424bdfbf20b755c3cbfe939c59b488",
+      "workflow_id": "MiniMax.motion-control"
+    },
+    {
+      "path": "MiniMax H3/MiniMax H3 Character swap · 2 etapas avanzado.json",
+      "reference_urls": [],
+      "sha256": "482913a3e21c1438e9beb5bd61854ba235cb7d03b0a366f13bbf560d1bb58435",
+      "source_path": "workflows/MiniMax/MiniMax.user-character-swap-two-stage.json",
+      "source_sha256": "b9e60886e036cb52478b1ad58a7a48d92a421e92664bd65f076acfc188266289",
+      "workflow_id": "MiniMax.user-character-swap-two-stage"
+    },
+    {
+      "path": "MOSS Image/Texto a imagen · SFT.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/67984637eefcd4825dcf5c134e39034785be1682/templates/image_moss_image_t2i.json",
+        "https://openmoss.ai/MOSS-Image/"
+      ],
+      "sha256": "1f62c703fec4fa82528ac90ae2c4a2f355327d6b9fa7d5ccc1ef48c97f8b49f8",
+      "source_path": "workflows/MOSSImage/MOSSImage__t2i.json",
+      "source_sha256": "e72c771d2f2ed959cdf5a4489d14dc048bc3e78d0aa50dfcb166a2538c9cc346",
+      "workflow_id": "MOSSImage.t2i"
+    },
+    {
+      "path": "MOSS Image/Composición con cajas · SFT.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/67984637eefcd4825dcf5c134e39034785be1682/templates/image_moss_image_t2i_bboxes.json",
+        "https://openmoss.ai/MOSS-Image/"
+      ],
+      "sha256": "7f96dde03f79e1df6703deb56cf49d93e2ac923650c9f8e52ac5beece92c2752",
+      "source_path": "workflows/MOSSImage/MOSSImage__layout.json",
+      "source_sha256": "d9a9f0b38cd5c3ec8d6fc9eb3e87f23cbac7fcb590e16b2093e4ff28fc96520f",
+      "workflow_id": "MOSSImage.layout"
+    },
+    {
+      "path": "MOSS Image/Texto a imagen · Base.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/67984637eefcd4825dcf5c134e39034785be1682/templates/image_moss_image_base_t2i.json",
+        "https://openmoss.ai/MOSS-Image/"
+      ],
+      "sha256": "f556c440544dfe6e077742f09c49946ede009c597a70fe2b43502fbe6f565d21",
+      "source_path": "workflows/MOSSImage/MOSSImage__base-t2i.json",
+      "source_sha256": "31566fe60b4629f60287d2c238b43fb6144d654f062346e5bcab9ddf6f495e29",
+      "workflow_id": "MOSSImage.base-t2i"
+    },
+    {
+      "path": "MOSS Image/Composición con cajas · Base.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/67984637eefcd4825dcf5c134e39034785be1682/templates/image_moss_image_base_t2i_bboxes.json",
+        "https://openmoss.ai/MOSS-Image/"
+      ],
+      "sha256": "eab2d8dd195f8466222956be28ac91b9215d9f9d12f023528755bd00034d1507",
+      "source_path": "workflows/MOSSImage/MOSSImage__base-layout.json",
+      "source_sha256": "4587fa72319b75eb6f0a774d9520903bf421f9690fc619bd65ea944e9c432d64",
+      "workflow_id": "MOSSImage.base-layout"
+    },
+    {
+      "path": "Pixal3D/Una imagen a 3D · con textura.json",
+      "reference_urls": [
+        "https://huggingface.co/Comfy-Org/Pixal3D"
+      ],
+      "sha256": "3f6f0e55d9e382ef299bca049ccf5bdfdb81a17be49151b0f13f670114ea6a89",
+      "source_path": "workflows/Pixal3D/Pixal3D - Single Image - Textured.json",
+      "source_sha256": "3122d9cb008fc3cf7ce73df3e2f276590f8f5922bf798f86845da66d748d6f17",
+      "workflow_id": "Pixal3D.single-textured"
+    },
+    {
+      "path": "Pixal3D/Una imagen a 3D · geometría.json",
+      "reference_urls": [
+        "https://huggingface.co/Comfy-Org/Pixal3D"
+      ],
+      "sha256": "a8ce2aa44a90a01618f510ba0200b84b9ce9f90d6c36656bc06c6264cd297aea",
+      "source_path": "workflows/Pixal3D/Pixal3D - Single Image - Shape Only.json",
+      "source_sha256": "8fb909a23c18e69081fe4aa841ec21726529d33d22e4a731619b8367050eb85e",
+      "workflow_id": "Pixal3D.single-shape"
+    },
+    {
+      "path": "Pixal3D/Varias vistas a 3D · con textura.json",
+      "reference_urls": [
+        "https://huggingface.co/Comfy-Org/Pixal3D"
+      ],
+      "sha256": "dda2ac954b12adbff40d0eb600f455a45fc65b86d8573e42687ea433857d1701",
+      "source_path": "workflows/Pixal3D/Pixal3D - Multiple Views - Textured.json",
+      "source_sha256": "8255f6ba3b876142717b513efda9504dabc7a05176ffd53857151b8812b6b54b",
+      "workflow_id": "Pixal3D.multi-textured"
+    },
+    {
+      "path": "Pixal3D/Varias vistas a 3D · geometría.json",
+      "reference_urls": [
+        "https://huggingface.co/Comfy-Org/Pixal3D"
+      ],
+      "sha256": "0a50b0d8a410cca2cab0c0a9498f58f44d0cee1a9093018fe2c8c7103707ba4a",
+      "source_path": "workflows/Pixal3D/Pixal3D - Multiple Views - Shape Only.json",
+      "source_sha256": "e26c3b1621678541ba077ae33fc43bb4dae28c9812cfb71b2a6d04c05503a20a",
+      "workflow_id": "Pixal3D.multi-shape"
+    },
+    {
+      "path": "Qwen Image 2.1/Texto a imagen.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/dd9769b10b2df75769bd32e349dc0d7927f2a705/templates/image_qwen_image_2_1_t2i.json",
+        "https://docs.comfy.org/tutorials/image/qwen/qwen-image-2-1"
+      ],
+      "sha256": "540ddc900f0f40651c7592a0ddcf10aa888537daf360eacce84941ee6241cc08",
+      "source_path": "workflows/Qwen/Qwen__t2i-simple.json",
+      "source_sha256": "e6d206ceb6456a543412788eb924d7a4c149a2926082853792c81cc9bd05a632",
+      "workflow_id": "Qwen.t2i-simple"
+    },
+    {
+      "path": "Qwen Image 2.1/Edición con hasta 10 referencias.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/dd9769b10b2df75769bd32e349dc0d7927f2a705/templates/image_qwen_image_2_1_image_edit.json",
+        "https://docs.comfy.org/tutorials/image/qwen/qwen-image-2-1"
+      ],
+      "sha256": "6ac9489fa6b687d9b36d7c985a83e44e6e7e494aab3669d633669893dc170474",
+      "source_path": "workflows/Qwen/Qwen__edit-10-ref.json",
+      "source_sha256": "0f910123824f4dcaa539b4b81a64282e0cbe283ac0b4235d7f8da6bd2d8cf6d8",
+      "workflow_id": "Qwen.edit-10-ref"
+    },
+    {
+      "path": "Qwen Image 2.1/Texto a imagen · plantilla oficial.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/dd9769b10b2df75769bd32e349dc0d7927f2a705/templates/image_qwen_image_2_1_t2i.json",
+        "https://docs.comfy.org/tutorials/image/qwen/qwen-image-2-1"
+      ],
+      "sha256": "51e0fb21ac96079be1a8253da00fb26a99047a15a8aa811bd15482533d775700",
+      "source_path": "workflows/Qwen/Qwen__t2i-official-expanded.json",
+      "source_sha256": "09dcdb2b32d6828f4748646e971db79c5ab4fbc7df472d19eb2b830e56e74904",
+      "workflow_id": "Qwen.t2i-official-expanded"
+    },
+    {
+      "path": "Qwen Image 2.1/Edición · plantilla oficial.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/dd9769b10b2df75769bd32e349dc0d7927f2a705/templates/image_qwen_image_2_1_image_edit.json",
+        "https://docs.comfy.org/tutorials/image/qwen/qwen-image-2-1"
+      ],
+      "sha256": "a96288d6673aef5642139294826d7bdf0dc0abaecf4b1b7494c6ccaab549b05a",
+      "source_path": "workflows/Qwen/Qwen__edit-2-ref-official-expanded.json",
+      "source_sha256": "be41b5f6a0a8e0ff9c54611686bbc52d44cb541fadcc61ae4c5b2212a077ab98",
+      "workflow_id": "Qwen.edit-2-ref-official-expanded"
+    },
+    {
+      "path": "Qwen Image 2.1/Preparar primer fotograma para movimiento.json",
+      "reference_urls": [
+        "https://docs.comfy.org/tutorials/image/qwen/qwen-image-2-1"
+      ],
+      "sha256": "38d51a6dd5846e6ca6f750e9fd8bc2f97bbedcaa1ce7b4d7e4f948a6a1bef884",
+      "source_path": "workflows/Qwen/Qwen__motion-first-frame.json",
+      "source_sha256": "2ac5d905740cdc01a45ce2c3362af88513b8fca7231d5f96050eb2b5c830a947",
+      "workflow_id": "Qwen.motion-first-frame"
+    },
+    {
+      "path": "Qwen Image 2.1/QWEN 2.1 EDITAR.json",
+      "reference_urls": [
+        "https://docs.comfy.org/tutorials/image/qwen/qwen-image-2-1"
+      ],
+      "sha256": "8b77366d963419c3e0f963b9d1d7f15f61e5150a1c8d10e124442c839209e87f",
+      "source_path": "workflows/Qwen/Qwen.user-edit-full.json",
+      "source_sha256": "575fbde880d670c84f5b26895f8675986a29c7871c5979816ef51fe0a3f3f4f3",
+      "workflow_id": "Qwen.user-edit-full"
+    },
+    {
+      "path": "Qwen Image 2512/Texto a imagen · estándar.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/image_qwen_Image_2512.json",
+        "https://docs.comfy.org/tutorials/image/qwen/qwen-image-2512"
+      ],
+      "sha256": "d7a6516cc9733038537e9957365b443a6d17b76aa1b36608f09abe2b635d2364",
+      "source_path": "workflows/Qwen2512/Qwen2512__t2i.json",
+      "source_sha256": "c8ef3c1a59880f12f48929d5dea2c918427cfeddb206a6e655ca4b7494f8e4cd",
+      "workflow_id": "Qwen2512.t2i"
+    },
+    {
+      "path": "Qwen Image 2512/Imagen guiada por control.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/image_qwen_Image_2512_controlnet.json",
+        "https://docs.comfy.org/tutorials/image/qwen/qwen-image-2512"
+      ],
+      "sha256": "789a368f97347e72483a0e1303123695c4623c5c925f035707a6097850c7e08c",
+      "source_path": "workflows/Qwen2512/Qwen2512__control.json",
+      "source_sha256": "6aaa75477cd889bb9c081f3b2ac4e4f96e624c5617a036762260347a7f7e2afe",
+      "workflow_id": "Qwen2512.control"
+    },
+    {
+      "path": "Qwen Image Edit 2511/Edición con hasta 3 referencias.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/image_qwen_image_edit_2511.json",
+        "https://docs.comfy.org/tutorials/image/qwen/qwen-image-edit-2511"
+      ],
+      "sha256": "5e80b41564c73795e6e3e343e800d29127ede6dac3971425ab825d193a5bf075",
+      "source_path": "workflows/QwenEdit2511/QwenEdit2511__edit-3-ref-toggle.json",
+      "source_sha256": "b6865b78758bb837fb7069fd4aa23731b87af95d3a3e7d7b4ef408c669c9eda9",
+      "workflow_id": "QwenEdit2511.edit-3-ref-toggle"
+    },
+    {
+      "path": "ZImage/Texto a imagen · Base.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0e5c5efb32ba6f3365d6da07da64aaf668157042/templates/image_z_image.json",
+        "https://blog.comfy.org/p/z-image-day-0-support-in-comfyui"
+      ],
+      "sha256": "a4d98efbaef27e8a734db9666f858b6aad327bf6d58dba423ff4b59456b6d92e",
+      "source_path": "workflows/ZImageBase/ZImageBase__t2i.json",
+      "source_sha256": "4441711338b6576006011c947ab4688379db8d207ab12a4482bdf4ac61a1745e",
+      "workflow_id": "ZImageBase.t2i"
+    },
+    {
+      "path": "ZImage turbo/Texto a imagen · Turbo.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/image_z_image_turbo.json",
+        "https://docs.comfy.org/tutorials/image/z-image/z-image-turbo"
+      ],
+      "sha256": "fea1eac0554f33e141f9484fda2b8fe2cc1090308c90997e15e50457ed981798",
+      "source_path": "workflows/ZImage/ZImage__t2i.json",
+      "source_sha256": "1bb8fa145de8916e789904ef933df779f738a2aaf3e0b74f0616f3f217eef63e",
+      "workflow_id": "ZImage.t2i"
+    },
+    {
+      "path": "ZImage turbo/Imagen guiada por estructura.json",
+      "reference_urls": [
+        "https://github.com/Comfy-Org/workflow_templates/blob/0bfbbbfa260e76f69137f5aa37b7553199c73bc0/templates/image_z_image_turbo_fun_union_controlnet.json",
+        "https://docs.comfy.org/tutorials/image/z-image/z-image-turbo"
+      ],
+      "sha256": "2331d98d746e1afed92b3b57599522249a597c1828498253c75b6cd26c07bfbb",
+      "source_path": "workflows/ZImage/ZImage__control.json",
+      "source_sha256": "aaaf29c445bac5896109cecba78c11d63db62251716dbda4e6ee79af68dfeeec",
+      "workflow_id": "ZImage.control"
+    }
+  ]
+}
