@@ -1,0 +1,15 @@
+{
+  "releases": [
+    {
+      "bytes": 1063085,
+      "notes": "Colección del profesor. Se incluyen las plantillas compatibles con tus componentes; las demás se conservan en el paquete íntegro, sin descargar modelos ni nodos.",
+      "requirements": {
+        "launcher_min": "1.0.30"
+      },
+      "sha256": "d3d479c5c9218b152ba9dd2b614cbbbd641755fe5f071a98c021493ee4c4b464",
+      "url": "https://raw.githubusercontent.com/danielpatillo/ComfyUI_Instalacion/df1cde8a545f39df1ac9bdb18bfc3b8482298b2f/workflow-updates/packages/pack-2026.11.02.2.zip",
+      "version": "2026.11.02.2"
+    }
+  ],
+  "schema": 1
+}
